@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
       args:
         gitUsername: sHarshil-Shah
-        gitPass: Aradhna%40001
+        gitPass: xxxxxxxxx #if password contains @, use %40 instead
     volumes:
      - ml_storage:/root/docker-compose-files/ml/docker-storage
 
