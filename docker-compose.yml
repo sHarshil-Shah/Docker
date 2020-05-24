@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  mlrepo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        gitUsername: sHarshil-Shah
+        gitPass: Aradhna%40001
+    volumes:
+     - ml_storage:/root/docker-compose-files/ml/docker-storage
+
+volumes:
+ ml_storage:
+
